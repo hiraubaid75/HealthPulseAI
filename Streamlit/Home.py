@@ -12,9 +12,9 @@ df = pd.read_csv(file_path)
 st.set_page_config(
     page_title="Home",
     page_icon="🏠",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
-
 # ---------------------
 # HOME TITLE
 # ---------------------
