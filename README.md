@@ -1,4 +1,8 @@
 # HealthPulse AI — UAE Hospital Patient Experience Analyzer
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" />
+</p>
+
 End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.
 
 🌟 Project Overview
