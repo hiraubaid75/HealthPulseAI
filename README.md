@@ -1,8 +1,39 @@
 # HealthPulse AI — UAE Hospital Patient Experience Analyzer
 🏥 HealthPulse AI — UAE Hospital Patient Experience Analyzer
-<p align="center"> <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" /> </p> <p align="center"> <b>End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.</b> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" /> </p> <p align="center"> <b>
+   
+   End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.</b> </p>
+<p align="center">
 
-End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.
+  <!-- Streamlit Demo Button -->
+  <a href="https://healthpulseai.streamlit.app" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20Open%20Streamlit%20App-0A66C2?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+
+  <!-- Power BI Screenshots -->
+  <a href="https://github.com/hiraubaid75/HealthPulseAI/tree/main/powerbi/ScreenShots" target="_blank">
+    <img src="https://img.shields.io/badge/📊%20Power%20BI%20Dashboard%20Screenshots-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  </a>
+
+  <!-- GitHub Repo -->
+  <a href="https://github.com/hiraubaid75/HealthPulseAI" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+</p>
+
+---
+
+<!-- TECHNOLOGY BADGES -->
+
+<p align="center">
+
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+  <!-- Streamlit -->
+  <img src="https://img.shields.io/badge/Streamlit
+
 
 ⭐ Project Overview
 
