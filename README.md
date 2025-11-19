@@ -89,8 +89,9 @@ Hospital comparison
 
 🔗 Live Demo
 
-🌐 Streamlit Demo (Dummy Link — Update after Deployment)
-👉 https://healthpulseai-demo.streamlit.app
+🌐 Streamlit Demo (Link)
+👉 (https://healthpulseai.streamlit.app/)
+
 
 📁 Project Structure
 HealthPulseAI/
