@@ -1,106 +1,238 @@
-# HealthPulse AI — UAE Hospital Patient Experience Analyzer
-End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.
+🏥 HealthPulse AI — UAE Hospital Patient Experience Analyzer
+<p align="center"> <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" /> </p> <p align="center"><b> End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI. </b></p>
+<p align="center"> <!-- Streamlit Demo Button (Dummy Link for Now) --> <a href="https://healthpulseai-demo.streamlit.app" target="_blank"> <img src="https://img.shields.io/badge/▶️%20Open%20Streamlit%20Demo-0A66C2?style=for-the-badge&logo=streamlit&logoColor=white" /> </a> <!-- Power BI Screenshots --> <a href="https://github.com/hiraubaid75/HealthPulseAI/tree/main/powerbi/ScreenShots" target="_blank"> <img src="https://img.shields.io/badge/📊%20Power%20BI%20Screenshots-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" /> </a> <!-- GitHub Repo --> <a href="https://github.com/hiraubaid75/HealthPulseAI" target="_blank"> <img src="https://img.shields.io/badge/GitHub%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </p>
+<p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FCC624?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/> </p>
+📚 Table of Contents
 
-🌟 Project Overview
+Project Overview
 
-HealthPulse AI is a complete Natural Language Processing (NLP) and Business Intelligence project designed to analyze thousands of patient reviews from UAE hospitals.
+Key Features
 
-The project extracts insights on:
+Live Demo
 
-Service quality
+Project Structure
 
-Staff behaviour
+NLP Pipeline Details
 
-Waiting times
+Streamlit App Pages
 
-Diagnosis quality
+Power BI Dashboard Screenshots
 
-Billing issues
+How to Run Locally
 
-Patient satisfaction
+Technologies Used
 
-This solution converts unstructured healthcare reviews into actionable insights to support hospital management, operational teams, and quality departments.
+Recruiter Notes
+
+Contact
+
+⭐ Project Overview
+
+HealthPulse AI is a full NLP + BI solution designed to analyze thousands of patient reviews from UAE hospitals.
+
+It extracts insights about:
+
+⭐ Service quality
+
+⭐ Staff behaviour
+
+⭐ Waiting times
+
+⭐ Diagnosis accuracy
+
+⭐ Billing issues
+
+⭐ Patient satisfaction
+
+This project converts unstructured text into actionable insights to support:
+
+Hospital CX teams
+
+Quality departments
+
+Executive leadership
+
+Healthcare decision makers
 
 🚀 Key Features
 ✔ NLP Pipeline
 
-Data Cleaning (text preprocessing)
+Text cleaning
 
-Language Translation (Arabic → English)
+Translation (Arabic → English)
 
 Lemmatization
 
-Sentiment Analysis (HuggingFace Transformer Model)
+HuggingFace transformer sentiment model
 
-Topic Modeling
+Topic modeling
 
-Keyword Extraction
+Keyword extraction
 
-Visualization & Insights
+✔ Streamlit App
 
-✔ Streamlit Web App
+Interactive dashboards
 
-Multi-page analytics app with:
+Topic-wise sentiment
 
+Word clouds
+
+Hospital comparisons
+
+✔ Power BI Dashboards
+
+Executive Summary
+
+Detailed topic insights
+
+Hospital comparison
+
+🔗 Live Demo
+
+🌐 Streamlit Demo (Dummy Link — Update after Deployment)
+👉 https://healthpulseai-demo.streamlit.app
+
+📁 Project Structure
+HealthPulseAI/
+├── Streamlit/
+│   ├── Home.py
+│   ├── Pages/
+│   │   ├── 1_EDA_Dashboard.py
+│   │   ├── 2_WordCloud.py
+│   │   ├── 3_Topic_Insights.py
+│   │   └── 4_Contact.py
+│   ├── data/
+│   │   └── hospital_reviews_final.csv
+│   └── assets/
+│       └── images, icons
+│
+├── powerbi/
+│   ├── dashboards.pbix
+│   └── ScreenShots/
+│       ├── Page1_ExecutiveSummary.png
+│       ├── Page2_DetailedInsights.png
+│       └── Page3_HospitalComparison.png
+│
+├── notebooks/
+│   └── HealthPulseAnalysis.ipynb
+│
+├── data/
+│   ├── raw_reviews.csv
+│   └── cleaned_reviews.csv
+│
+├── outputs/
+│   ├── model_outputs/
+│   └── visualizations/
+│
+├── assets/
+│   ├── banner.png
+│   └── logos/
+│
+├── requirements.txt
+└── README.md
+
+🧠 NLP Pipeline Details
+1️⃣ Data Cleaning
+
+Remove special characters
+
+Lowercase
+
+Remove stopwords
+
+Lemmatization
+
+2️⃣ Translation
+
+Arabic reviews → English (Google Translate API)
+
+3️⃣ Sentiment Analysis
+
+HuggingFace Transformer Model
+
+Produces:
+
+Sentiment_Label (POSITIVE / NEGATIVE)
+
+Sentiment_Score (0–1)
+
+4️⃣ Topic Modeling
+
+Keyword extraction
+
+Clustering
+
+Topic labels & keywords
+
+5️⃣ Visualization
+
+Power BI
+
+Streamlit
+
+WordClouds
+
+📸 Streamlit App Pages
 🏠 Home Page
+
+Overview of the hospitals and project purpose.
 
 📊 EDA Dashboard
 
-☁️ WordClouds
+Rating distribution
+
+Sentiment breakdown
+
+Topic frequency
+
+Hospital-level stats
+
+☁️ WordCloud Page
+
+Positive word cloud
+
+Negative word cloud
 
 🧠 Topic Insights
 
-📬 Contact
+Topic distribution
 
-✔ Power BI Dashboard
+Sentiment score per topic
 
-Professional visual dashboard showcasing:
+Top positive/negative topics
 
-KPI Summary
+Keywords per topic
 
-Ratings Distribution
+📬 Contact Page
 
-Sentiment Trends
+Links to Email, GitHub, LinkedIn, WhatsApp
 
-Topic Trends
+🖥️ Power BI Dashboard Screenshots
+📊 Page 1 — Executive Summary
 
-Hospital-level Comparisons
+📊 Page 2 — Detailed Insights
 
-✔ Fully Reproducible
+📊 Page 3 — Hospital Comparison
 
-Clean folder structure
+⚙️ How to Run Locally
+# 1. Clone the repo
+git clone https://github.com/hiraubaid75/HealthPulseAI.git
+cd HealthPulseAI
 
-requirements.txt included
+# 2. Create virtual environment
+python -m venv venv
 
-Compatible with Windows/Linux/Mac
+# 3. Activate
+venv\Scripts\activate
 
-Can be deployed to Streamlit Cloud
+# 4. Install requirements
+pip install -r requirements.txt
 
-🏥 Use Case: UAE Healthcare Industry
+# 5. Run Streamlit app
+cd Streamlit
+streamlit run Home.py
 
-This project solves real challenges faced by:
-
-Healthcare Quality Departments
-
-Hospital CX Teams
-
-Patient Experience Managers
-
-Executive Management
-
-Common insights include:
-
-Identifying top reasons behind negative reviews
-
-Understanding patient expectations
-
-Monitoring hospital performance
-
-Improving service delivery
-
-Discovering department-level issues (billing, staff, waiting time, etc.)
-
-📊 Technologies Used
+🛠 Technologies Used
 Programming & NLP
 
 Python
@@ -111,21 +243,19 @@ NumPy
 
 NLTK
 
-WordCloud
-
 HuggingFace Transformers
 
-Matplotlib
+WordCloud
 
 Plotly
 
-Visualization & BI
+BI & Visualization
 
 Power BI
 
 Streamlit
 
-Software & Tools
+Tools
 
 VS Code
 
@@ -133,164 +263,28 @@ Git / GitHub
 
 Jupyter Notebook
 
-Streamlit Cloud (for deployment)
+Streamlit Cloud
 
-📁 Project Structure
+🧑‍💼 Recruiter Notes
 
-HealthPulseAI/
-│── Streamlit/
-│     ├── Home.py
-│     ├── Pages/
-│     │      ├── 1_EDA_Dashboard.py
-│     │      ├── 2_WordCloud.py
-│     │      ├── 3_Topic_Insights.py
-│     │      └── 4_Contact.py
-│     ├── data/
-│     │      ├── hospital_reviews_final.csv
-│
-├── powerbi/
-│     ├── dashboards.pbix
-│
-├── notebooks/
-│     ├── HealthPulseAnalysis.ipynb
-│
-├── data/
-│     ├── raw_reviews.csv
-│     ├── cleaned_reviews.csv
-│
-├── outputs/
-│     ├── model_outputs/
-│     ├── visualizations/
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
+This project demonstrates:
 
-📈 Streamlit App Pages
-🏠 Home Page
+✔ End-to-end NLP pipeline
+✔ SQL/Python/Power BI integration
+✔ Dashboard storytelling
+✔ Cloud deployment
+✔ Real-world UAE healthcare use case
 
-Overview of project, pipeline, dataset, and tech stack.
-
-📊 EDA Dashboard
-
-Rating distribution
-
-Sentiment distribution
-
-Hospital comparisons
-
-Topic frequency
-
-☁️ WordCloud Page
-
-Positive wordcloud
-
-Negative wordcloud
-
-🧠 Topic Insights Page
-
-Topic distribution
-
-Sentiment score by topic
-
-Top positive/negative topics
-
-Topic keywords
-
-📬 Contact Page
-
-Email
-
-LinkedIn
-
-GitHub
-
-WhatsApp (optional)
-
-🧠 NLP Pipeline Details
-1️⃣ Data Cleaning
-
-Remove punctuation
-
-Lowercasing
-
-Remove stopwords
-
-Lemmatization
-
-2️⃣ Translation (Arabic → English)
-
-Used Google Translate API to standardize text.
-
-3️⃣ Sentiment Analysis
-
-HuggingFace Transformer Model generates:
-
-Sentiment Label (Positive / Negative)
-
-Sentiment Score
-
-4️⃣ Topic Modeling
-
-Topics extracted from:
-
-Keywords
-
-Co-occurrence patterns
-
-PCA-based clustering
-
-5️⃣ Visualization
-
-Power BI dashboards
-
-Streamlit interactive charts
-
-WordClouds
-
-🖥️ How to Run the Streamlit App Locally
-1. Clone the repository
-   git clone https://github.com/hiraubaid75/HealthPulseAI.git
-   cd HealthPulseAI
-2. Create Virtual Environment
-   python -m venv venv
-3. Activate venv
-   venv\Scripts\activate
-4. Install Requirements
-   pip install -r requirements.txt
-5. Run Streamlit App
-   cd Streamlit
-   streamlit run Home.py
-
-🌐 Deployment
-
-Deploy for FREE on:
-
-👉 Streamlit Cloud
-
-Login with GitHub
-
-Connect this repo
-
-Select Streamlit/Home.py
-
-Deploy
-
-https://healthpulseai.streamlit.app
+This reflects strong skills in Data Analysis, NLP, BI dashboards, and App Development.
 
 📩 Contact
 
-📧 Email: hiraubaid95@gmail.com
+📧 Email — hiraubaid95@gmail.com
 
-🔗 LinkedIn: https://linkedin.com/in/hira-barlas
+🔗 LinkedIn — https://linkedin.com/in/hira-barlas
 
-🐙 GitHub: https://github.com/hiraubaid75
+🐙 GitHub — https://github.com/hiraubaid75
 
-💬 WhatsApp: wa.me/971554072324
+💬 WhatsApp — wa.me/971554072324
 
-⭐ If you like this project, give it a star on GitHub!
-
-Your support helps me grow as a Data Analyst & AI Engineer 😊
-
-
-
+⭐ If you like this project, please star the repo!
