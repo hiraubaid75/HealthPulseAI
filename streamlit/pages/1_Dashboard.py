@@ -9,7 +9,7 @@ df = pd.read_csv(file_path)
 
 
 st.set_page_config(
-    page_title="EDA Dashboard",
+    page_title="Dashboard",
     page_icon="📊",
     layout="wide"
 )
