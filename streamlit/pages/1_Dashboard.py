@@ -14,7 +14,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 EDA Dashboard")
+st.title("📊Dashboard")
 st.write("Explore review trends, ratings, sentiment distribution and hospital comparisons.")
 
 # Load dataset
