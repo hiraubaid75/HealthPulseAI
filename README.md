@@ -292,5 +292,31 @@ https://healthpulseai.streamlit.app
 
 Your support helps me grow as a Data Analyst & AI Engineer 😊
 
+---
+
+## 📸 Power BI Dashboard Screenshots
+
+### **📊 Page 1 — Executive Summary**
+Overview of key patient experience KPIs across UAE hospitals.
+
+![Page 1 — Executive Summary](powerbi/ScreenShots/Page%201%20%E2%80%94%20Executive%20Summary.png)
+
+---
+
+### **📊 Page 2 — Detailed Insights**
+Topic-wise insights, sentiment breakdown, and review analysis.
+
+![Page 2 — Detailed Insights](powerbi/ScreenShots/Page%202_Detailed%20Insights.png)
+
+---
+
+### **📊 Page 3 — Hospital Comparison**
+Hospital-level comparison of ratings, sentiment scores, and topics.
+
+![Page 3 — Hospital Comparison](powerbi/ScreenShots/Page%203_Hospital%20Comparison.png)
+
+---
+
+
 
 
