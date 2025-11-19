@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+wordcloud
+matplotlib
+transformers
+sentencepiece
+huggingface-hub
+scikit-learn
+nltk
+Pillow
