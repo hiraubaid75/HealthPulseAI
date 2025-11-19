@@ -1,15 +1,12 @@
 # HealthPulse AI — UAE Hospital Patient Experience Analyzer
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" />
-</p>
+🏥 HealthPulse AI — UAE Hospital Patient Experience Analyzer
+<p align="center"> <img src="https://raw.githubusercontent.com/hiraubaid75/HealthPulseAI/main/assets/banner.png" width="100%" /> </p> <p align="center"> <b>End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.</b> </p>
 
 End-to-end NLP-powered healthcare analytics project analyzing patient reviews from UAE hospitals using Python, HuggingFace, Topic Modeling, Streamlit, and Power BI.
 
-🌟 Project Overview
+⭐ Project Overview
 
-HealthPulse AI is a complete Natural Language Processing (NLP) and Business Intelligence project designed to analyze thousands of patient reviews from UAE hospitals.
-
-The project extracts insights on:
+HealthPulse AI is a full NLP + Business Intelligence solution built to analyze thousands of patient reviews from UAE hospitals to uncover:
 
 Service quality
 
@@ -17,69 +14,31 @@ Staff behaviour
 
 Waiting times
 
-Diagnosis quality
+Diagnosis accuracy
 
 Billing issues
 
 Patient satisfaction
 
-This solution converts unstructured healthcare reviews into actionable insights to support hospital management, operational teams, and quality departments.
+The project converts unstructured text into actionable insights for healthcare decision-makers.
 
-🚀 Key Features
-✔ NLP Pipeline
+⭐ Project Overview
 
-Data Cleaning (text preprocessing)
+HealthPulse AI is a full NLP + Business Intelligence solution built to analyze thousands of patient reviews from UAE hospitals to uncover:
 
-Language Translation (Arabic → English)
+Service quality
 
-Lemmatization
+Staff behaviour
 
-Sentiment Analysis (HuggingFace Transformer Model)
+Waiting times
 
-Topic Modeling
+Diagnosis accuracy
 
-Keyword Extraction
+Billing issues
 
-Visualization & Insights
+Patient satisfaction
 
-✔ Streamlit Web App
-
-Multi-page analytics app with:
-
-🏠 Home Page
-
-📊 EDA Dashboard
-
-☁️ WordClouds
-
-🧠 Topic Insights
-
-📬 Contact
-
-✔ Power BI Dashboard
-
-Professional visual dashboard showcasing:
-
-KPI Summary
-
-Ratings Distribution
-
-Sentiment Trends
-
-Topic Trends
-
-Hospital-level Comparisons
-
-✔ Fully Reproducible
-
-Clean folder structure
-
-requirements.txt included
-
-Compatible with Windows/Linux/Mac
-
-Can be deployed to Streamlit Cloud
-
+The project converts unstructured text into actionable insights for healthcare decision-makers.
 🏥 Use Case: UAE Healthcare Industry
 
 This project solves real challenges faced by:
