@@ -101,43 +101,43 @@ Streamlit Cloud (for deployment)
 📁 Project Structure
 
 HealthPulseAI/
-├─ Streamlit/
-│  ├─ Home.py
-│  ├─ Pages/
-│  │  ├─ 1_EDA_Dashboard.py
-│  │  ├─ 2_WordCloud.py
-│  │  ├─ 3_Topic_Insights.py
-│  │  └─ 4_Contact.py
-│  ├─ data/
-│  │  └─ hospital_reviews_final.csv
-│  └─ assets/
-│     └─ (icons, images used in app)
+├── Streamlit/
+│   ├── Home.py
+│   ├── Pages/
+│   │   ├── 1_EDA_Dashboard.py
+│   │   ├── 2_WordCloud.py
+│   │   ├── 3_Topic_Insights.py
+│   │   └── 4_Contact.py
+│   ├── data/
+│   │   └── hospital_reviews_final.csv
+│   └── assets/
+│       └── (icons, images)
 │
-├─ powerbi/
-│  ├─ dashboards.pbix
-│  └─ ScreenShots/
-│     ├─ Page1_ExecutiveSummary.png
-│     ├─ Page2_DetailedInsights.png
-│     └─ Page3_HospitalComparison.png
+├── powerbi/
+│   ├── dashboards.pbix
+│   └── ScreenShots/
+│       ├── Page1_ExecutiveSummary.png
+│       ├── Page2_DetailedInsights.png
+│       └── Page3_HospitalComparison.png
 │
-├─ notebooks/
-│  └─ HealthPulseAnalysis.ipynb
+├── notebooks/
+│   └── HealthPulseAnalysis.ipynb
 │
-├─ data/
-│  ├─ raw_reviews.csv
-│  └─ cleaned_reviews.csv
+├── data/
+│   ├── raw_reviews.csv
+│   └── cleaned_reviews.csv
 │
-├─ outputs/
-│  ├─ model_outputs/
-│  └─ visualizations/
+├── outputs/
+│   ├── model_outputs/
+│   └── visualizations/
 │
-├─ assets/
-│  ├─ banner.png
-│  └─ logos/
+├── assets/
+│   ├── banner.png
+│   └── logos/
 │
-├─ requirements.txt
-├─ .gitignore
-└─ README.md
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 
 📈 Streamlit App Pages
