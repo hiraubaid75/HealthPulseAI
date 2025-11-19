@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import os
+import pandas as pd
+
+file_path = os.path.join("data", "hospital_reviews_final.csv")
+df = pd.read_csv(file_path)
+
 
 st.set_page_config(
     page_title="WordCloud",

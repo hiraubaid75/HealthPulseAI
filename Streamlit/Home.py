@@ -1,4 +1,10 @@
 import streamlit as st
+import os
+import pandas as pd
+
+file_path = os.path.join("data", "hospital_reviews_final.csv")
+df = pd.read_csv(file_path)
+
 
 # ---------------------
 # PAGE CONFIG

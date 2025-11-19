@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
+import pandas as pd
+
+file_path = os.path.join("data", "hospital_reviews_final.csv")
+df = pd.read_csv(file_path)
+
 
 st.set_page_config(
     page_title="Topic Insights",
