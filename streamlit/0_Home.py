@@ -105,15 +105,3 @@ st.write("""
 
 st.markdown("---")
 st.success("Use the left sidebar to navigate through the dashboard, wordclouds, topic insights, and contact page.")
-
-if st.button("Show Streamlit Folder Structure"):
-    root = "."
-    files_and_folder = []
-    
-    for path, dirs, files in os.walk(root):
-        for name in dirs:
-            files_and_folder.append(os.path.join(path, name))
-        for name in files:
-            files_and_folder.append(os.path.join(path, name))
-
-    st.write(files_and_folder)
